@@ -8,7 +8,7 @@ twilio:
   trial_number: # your trial number
 ```
 ## Install
-You can depend on the .jar through Mave
+You can depend on the .jar through Maven
 ```xml
 <dependency>
    <groupId>com.twilio.sdk</groupId>
