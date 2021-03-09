@@ -34,6 +34,10 @@ public class SmsController {
 		smsService.sendSms(smsRequest);
 	}
 	*/
+	
+	/*sending form data
+	*/
+	
 	@PostMapping("/send")
 	public void SendSms(@Valid SmsRequest smsRequest) {
 		smsService.sendSms(smsRequest);
